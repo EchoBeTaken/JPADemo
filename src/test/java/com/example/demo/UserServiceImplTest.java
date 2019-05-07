@@ -52,7 +52,7 @@ public class UserServiceImplTest {
 //        userRepository.save(userDao);
         System.out.println("password = " + userRepository.findByName("555").getPassword());
 
-        userService.deleteUserById("001");
+//        userService.deleteUserById("001");
 
     }
 
